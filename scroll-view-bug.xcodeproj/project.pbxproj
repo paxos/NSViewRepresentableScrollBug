@@ -11,6 +11,8 @@
 		6F5DD3BB275ABAB700998E15 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F5DD3BA275ABAB700998E15 /* ContentView.swift */; };
 		6F5DD3BD275ABAB800998E15 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6F5DD3BC275ABAB800998E15 /* Assets.xcassets */; };
 		6F5DD3C0275ABAB800998E15 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6F5DD3BF275ABAB800998E15 /* Preview Assets.xcassets */; };
+		6F5DD3C8275ABB0500998E15 /* MyViewRepresentable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F5DD3C7275ABB0500998E15 /* MyViewRepresentable.swift */; };
+		6F5DD3CA275ABBA400998E15 /* MyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F5DD3C9275ABBA400998E15 /* MyView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +22,8 @@
 		6F5DD3BC275ABAB800998E15 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		6F5DD3BF275ABAB800998E15 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		6F5DD3C1275ABAB800998E15 /* scroll_view_bug.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = scroll_view_bug.entitlements; sourceTree = "<group>"; };
+		6F5DD3C7275ABB0500998E15 /* MyViewRepresentable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyViewRepresentable.swift; sourceTree = "<group>"; };
+		6F5DD3C9275ABBA400998E15 /* MyView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +61,8 @@
 				6F5DD3BC275ABAB800998E15 /* Assets.xcassets */,
 				6F5DD3C1275ABAB800998E15 /* scroll_view_bug.entitlements */,
 				6F5DD3BE275ABAB800998E15 /* Preview Content */,
+				6F5DD3C7275ABB0500998E15 /* MyViewRepresentable.swift */,
+				6F5DD3C9275ABBA400998E15 /* MyView.swift */,
 			);
 			path = "scroll-view-bug";
 			sourceTree = "<group>";
@@ -139,6 +145,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6F5DD3CA275ABBA400998E15 /* MyView.swift in Sources */,
+				6F5DD3C8275ABB0500998E15 /* MyViewRepresentable.swift in Sources */,
 				6F5DD3BB275ABAB700998E15 /* ContentView.swift in Sources */,
 				6F5DD3B9275ABAB700998E15 /* scroll_view_bugApp.swift in Sources */,
 			);
