@@ -8,9 +8,7 @@
 import Cocoa
 
 class MyView: NSView {
-    override open var intrinsicContentSize: CGSize {
-        CGSize(width: 600, height: 1000)
-    }
+
 
     override func draw(_ dirtyRect: NSRect) {
         NSColor.red.setFill()
