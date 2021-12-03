@@ -13,7 +13,5 @@ struct MyViewRepresentable: NSViewRepresentable {
         MyView(frame: .zero)
     }
 
-    func updateNSView(_ view: MyView, context: Context) {
-
-    }
+    func updateNSView(_ view: MyView, context: Context) {}
 }

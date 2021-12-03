@@ -58,11 +58,11 @@
 			children = (
 				6F5DD3B8275ABAB700998E15 /* scroll_view_bugApp.swift */,
 				6F5DD3BA275ABAB700998E15 /* ContentView.swift */,
+				6F5DD3C7275ABB0500998E15 /* MyViewRepresentable.swift */,
+				6F5DD3C9275ABBA400998E15 /* MyView.swift */,
 				6F5DD3BC275ABAB800998E15 /* Assets.xcassets */,
 				6F5DD3C1275ABAB800998E15 /* scroll_view_bug.entitlements */,
 				6F5DD3BE275ABAB800998E15 /* Preview Content */,
-				6F5DD3C7275ABB0500998E15 /* MyViewRepresentable.swift */,
-				6F5DD3C9275ABBA400998E15 /* MyView.swift */,
 			);
 			path = "scroll-view-bug";
 			sourceTree = "<group>";

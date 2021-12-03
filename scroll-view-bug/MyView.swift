@@ -9,7 +9,7 @@ import Cocoa
 
 class MyView: NSView {
     override open var intrinsicContentSize: CGSize {
-        CGSize(width: NSView.noIntrinsicMetric, height: 1000)
+        CGSize(width: 600, height: 1000)
     }
 
     override func draw(_ dirtyRect: NSRect) {
